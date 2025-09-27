@@ -1,0 +1,25 @@
+frontend/
+├── components/          # Reusable UI components
+│   ├── Auth/            # Components related to authentication (e.g., Login, Signup)
+│   ├── Chat/            # Components for the chatbot UI
+│   ├── FileUpload/      # Components for file upload functionality
+│   └── Shared/          # Shared components (e.g., Navbar, Footer, Buttons)
+├── pages/               # Next.js pages
+│   ├── auth/            # Pages for authentication (e.g., login.tsx, signup.tsx)
+│   ├── chat/            # Pages for chatbot (e.g., index.tsx)
+│   ├── upload/          # Pages for file upload (e.g., index.tsx)
+│   └── index.tsx        # Main landing page
+├── styles/              # Global and component-specific styles
+│   ├── globals.css      # Global styles
+│   └── components/      # Component-specific styles
+├── utils/               # Utility functions (e.g., API calls, helpers)
+│   ├── api.ts           # API service functions
+│   └── auth.ts          # Authentication helpers
+├── context/             # React Context for global state management
+│   └── AuthContext.tsx  # Context for user authentication
+├── hooks/               # Custom React hooks
+│   └── useAuth.ts       # Hook for authentication logic
+├── public/              # Static assets (e.g., images, icons)
+├── next.config.ts       # Next.js configuration
+├── tsconfig.json        # TypeScript configuration
+└── package.json         # Project dependencies
