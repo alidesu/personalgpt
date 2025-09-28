@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 @import "tailwindcss";
+@tailwind utilities;
 
-@theme {  --font-schoolbell: "Schoolbell", sans-serif; }
+@theme {
+    --font-schoolbell: "Schoolbell", sans-serif;
+    --font-alojalight: 'AlojaLight', sans-serif; /* Use the font-family name defined above */
+}
+@font-face {
+    font-family: 'AlojaLight';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Aloja-Ligh-400.otf") format("opentype");
+}
+
+
