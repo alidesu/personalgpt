@@ -13,7 +13,7 @@ const Header = () => {
                 <div className="bg-white rounded-full overflow-clip pr-40 pl-40 pt-4 pb-4">
                     <span className="text-4xl font-schoolbell text-black">“Your knowledge. Your AI. Your way.”</span>
                 </div>
-                <div className="flex flex-wrap items-center gap-6 text-3xl bg-white rounded-full border-2 border-black overflow-clip pl-10 pr-10 pt-4 pb-4">
+                <div className="flex flex-wrap items-center gap-6 text-3xl bg-white rounded-full border-2 hover:scale-105 transition-transform border-black overflow-clip pl-10 pr-10 pt-4 pb-4">
                     <button className="font-alojalight items-center justify-center font-bold text-black">
                         Upload
                     </button>
